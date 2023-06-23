@@ -1,4 +1,4 @@
-namespace BlazorApp1.Data
+namespace Catalysta.Platform.Frontend.Data
 {
     public class WeatherForecastService
     {
