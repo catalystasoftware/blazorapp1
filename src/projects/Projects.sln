@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalysta.Platform.Api", "Catalysta.Platform.Api\Catalysta.Platform.Api.csproj", "{9377CAFF-09D1-4102-BAC3-5281A7F24C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saascade.Platform.Api", "Saascade.Platform.Api\Saascade.Platform.Api.csproj", "{CBFCF3AF-E1E8-4510-A92D-512750C6D9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalysta.Platform.Frontend", "Catalysta.Platform.Frontend\Catalysta.Platform.Frontend.csproj", "{8EDCA004-78FA-4929-AEFE-C03A3211DD5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saascade.Platform.Frontend.BlazorServerSide", "Saascade.Platform.Frontend.BlazorServerSide\Saascade.Platform.Frontend.BlazorServerSide.csproj", "{B2AA9781-94A9-4827-B18A-A9999F6A2D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saascade.Platform.Frontend.BlazorWasm", "Saascade.Platform.Frontend.BlazorWasm\Saascade.Platform.Frontend.BlazorWasm.csproj", "{44AA2A1D-6B2E-4802-B9B8-55C6E182EBCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9377CAFF-09D1-4102-BAC3-5281A7F24C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9377CAFF-09D1-4102-BAC3-5281A7F24C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9377CAFF-09D1-4102-BAC3-5281A7F24C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9377CAFF-09D1-4102-BAC3-5281A7F24C09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EDCA004-78FA-4929-AEFE-C03A3211DD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EDCA004-78FA-4929-AEFE-C03A3211DD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EDCA004-78FA-4929-AEFE-C03A3211DD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EDCA004-78FA-4929-AEFE-C03A3211DD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFCF3AF-E1E8-4510-A92D-512750C6D9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFCF3AF-E1E8-4510-A92D-512750C6D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFCF3AF-E1E8-4510-A92D-512750C6D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFCF3AF-E1E8-4510-A92D-512750C6D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AA9781-94A9-4827-B18A-A9999F6A2D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AA9781-94A9-4827-B18A-A9999F6A2D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AA9781-94A9-4827-B18A-A9999F6A2D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AA9781-94A9-4827-B18A-A9999F6A2D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AA2A1D-6B2E-4802-B9B8-55C6E182EBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AA2A1D-6B2E-4802-B9B8-55C6E182EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AA2A1D-6B2E-4802-B9B8-55C6E182EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AA2A1D-6B2E-4802-B9B8-55C6E182EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
